@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Week 3 Notes</title>
+        <link rel="stylesheet" href="styless.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            #skip{
+                    position: absolute;
+                    left: -999px;
+                    background-color: white;
+                    border: 1px solid black;
+                }
+           #skip:focus {
+                    position: absolute;
+                    left: 10px;
+                }
+    
+    
+            
+        </style>
+
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home </a>
+            <span>|</span>
+            <a href="formalreport.html">Analysis Report </a>
+            <span>|</span>
+            <a href="resume.html">My Resume</a>
+            <span>|</span>
+            <a href="contacts.html">Contact</a>
+            <span>|</span>
+            <a href="skills.html">Skills</a>
+        </nav>
+        <a id="skip" href="#forms">Skip to Form</a>
+        <section>
+       <div class="flexx"> 
+           
+           <div><h1>Nico Mitrano</h1>
+        <h2>311 Waverly Ave, Syracuse, NY</h2>
+        <a href="https://www.linkedin.com/in/nicolasmitrano/"><img src="../images/linkedin.png" alt="Hyperlink to my linkedin page"></a>
+        <a href="mailto:ncmitran@syr.edu">My Email</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0158419880654!2d-76.13287188453289!3d43.04109817914697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30abe5881a1%3A0xf3eebb55d67d2581!2sKimmel%2C%20311%20Waverly%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631895717001!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           </div>
+           <div>
+        </section>
+  
+        <section alt="Personal information form. Name and email input.">
+        <h2>HTML Info Form</h2>
+        <a id="forms"></a>
+
+        <form action=”mailto:ncmitran@syr.edu”>  
+          <label for="fname">First name:</label><br>
+          <input type="namefirst" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="namelast" id="lname" name="lname" value="Doe"><br><br>
+          <label for="email">Email:</label><br>
+          <input type="emailo" id="email" name="email" value="Blah@blah.com"><br><br>
+ 
+  
+            <input type="grade1" id="freshman" name="gradeone" value="freshman">
+            <label for="freshman">Freshman</label><br>
+            <input type="grade2" id="sophomore" name="gradetwo" value="sophomore">
+            <label for="sophomore">Sophomore</label><br>
+            <input type="grade3" id="junior" name="gradethree" value="junior">
+            <label for="junior">Junior</label><br>
+            <input type="grade4" id="senior" name="gradefour" value="senior">
+            <label for="senior">Senior</label><br>
+          <input type="submit" value="Submit">
+     
+        </form> 
+    </section>
+    </div>
+    </div>
+    <footer>
+        &copy; 2022<br>
+    </footer>
+    </body>
+
+</html>

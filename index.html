@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <script>        setTimeout(function loaderrr() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loader-inner").style.display = "none";
+        document.getElementById("loaderr").style.display = "none";
+    }, 3000);
+
+
+</script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #skip {
+            position: absolute;
+            left: -999px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #skip:focus {
+            position: absolute;
+            left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loaderr" id="loaderr"> </div>
+    <div class="loader" id="loader" onload="loaderrr();">
+        <div class="loader-inner" id="loader-inner" onload="loaderrr();"></div>
+
+
+    </div>
+    <nav>
+        <a href="index.html">Home </a>
+        <span>|</span>
+        <a href="formalreport.html">Analysis Report </a>
+        <span>|</span>
+        <a href="resume.html">My Resume</a>
+        <span>|</span>
+        <a href="contacts.html">Contact</a>
+        <span>|</span>
+        <a href="skills.html">Skills</a>
+    </nav>
+    <div class="main">
+        <h1>Nico's Food Reviews</h1>
+
+        <div class="body">
+            
+                <img src="images/htmlcode.jpeg">
+            
+            <div>
+                <p>
+                    Welcome to my E-Portfolio. Throughout this webpage, you can find a list of my academic accomplishments, personal endeavors, and other interesting things about my life. I hope you find it easy to navigate, and dont mind my basic html coding skills! Please do not hesitate to email me with any questions!
+                </p>
+            </div>
+            <div>
+                wrt 307
+                December 11, 2022
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2022<br>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurants</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    setTimeout(function loaderrr() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loader-inner").style.display = "none";
+        document.getElementById("loaderr").style.display = "none";
+    }, 3000);
+
+
+</script>
+    <style>
+        #skip {
+            position: absolute;
+            left: -999px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #skip:focus {
+            position: absolute;
+            left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loaderr" id="loaderr"> </div>
+    <div class="loader" id="loader" onload="loaderrr();">
+        <div class="loader-inner" id="loader-inner" onload="loaderrr();"></div>
+
+
+    </div>
+    <nav>
+        <a href="index.html">Home </a>
+        <span>|</span>
+        <a href="formalreport.html">Analysis Report </a>
+        <span>|</span>
+        <a href="resume.html">My Resume</a>
+        <span>|</span>
+        <a href="contacts.html">Contact</a>
+        <span>|</span>
+        <a href="skills.html">Skills</a>
+    </nav>
+    <div class="restaurants">
+        <div class="instructions">
+            <p></p>
+            <img src="images/image1.jpg" id="recpimage" alt="bowl of assorted sushi rolls">
+            <h1>WRT 307 Final Formal Report</h1>
+            <h2>Syracuse, NY</h2>
+            <h1>Enclosed below is my report on Syracuse University's current E-Learning infrastructure. The report discusses student body's sentiment regarding the current e-learning infrastucture of blackbaord and myslice, and the accompnaying headche that comes with using them over extended periods.  </h1>
+            <h2>This report demonstrates my ability to procure meaningful data, draw insights from it, and apply tailored, credible solutions</h3>
+            <section class="ingrediants">
+                <iframe src= "images/final formal report blackbaord.pdf" width = 3000pt height = 3000pt ></iframe>
+                
+    <footer>
+        &copy; 2021<br>
+    </footer>
+  
+</body>
+
+</html>
